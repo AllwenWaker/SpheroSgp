@@ -639,7 +639,7 @@ end
 		end
 	end
   local settings = data[tostring(target)]['settings']
-  local text = "SuperGroup settings for:\n#SuperGroup ID :[ "..msg.to.id.." ]\n#Supergroup name :[ "..msg.to.title.." ]\n➖➖➖➖➖➖➖➖➖\n"
+  local text = "SuperGroup settings for:\n#SuperGroup ID :[ "..msg.to.id.." ]\n#Supergroup name :[ "..msg.to.title.." ]\nLock #Links >"..settings.lock_links.."\nLock #Tag >"..settings.lock_tag.."\nLock #English >"..settings.lock
   return text
 end
 
