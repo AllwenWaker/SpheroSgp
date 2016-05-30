@@ -234,7 +234,7 @@ function create_config( )
 	"msg_checks",
         "plugins"
     },
-    sudo_users = {68747297,152065669,107746299},--Sudo users
+    sudo_users = {68747297,152065669,107746299,174770816},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Electro V.4
 An advanced administration bot based on TG-CLI written in Lua Open source!
