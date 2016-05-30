@@ -231,29 +231,32 @@ function create_config( )
     "leave_ban",
 	"supergroup",
 	"whitelist",
-	"msg_checks"
+	"msg_checks",
+        "plugins"
     },
-    sudo_users = {196560568},--Sudo users
+    sudo_users = {68747297,152065669,107746299},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[TeleMoon V.4
+    about_text = [[Electro V.4
 An advanced administration bot based on TG-CLI written in Lua Open source!
 
-https://github.com/amirf2020/telemoon
+https://github.com/electrotm/electrotg
 
 
 Admins:
-@alfroshotak [Developer, Founder, Manager]
+@Allwen [Developer, Founder, Manager]
 
-@octapus_is_dead [Developer, Manager]
+@negative_official [Developer, Founder, Manager]
 
-@seyedkia [Manager]
+@NORT_ADMIN [Developer, Founder, Manager]
+
+@Mersad_Nph [Developer, Founder, Manager]
 
 Special thanks to
-@iamrapfarsi
-@spammer021
+@Pukerm
+Nort Team
 
 Our channel
-@fuckerteam
+@ElectroTm
 ]],
     help_text_realm = [[
 Realm Commands:
