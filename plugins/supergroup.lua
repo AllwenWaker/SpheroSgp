@@ -639,7 +639,7 @@ end
 		end
 	end
   local settings = data[tostring(target)]['settings']
-  local text = "SuperGroup settings for:\n#SuperGroup ID :[ "..msg.to.id.." ]\n#Supergroup name :[ "..msg.to.title.." ]\nLock #Links >"..settings.lock_links.."\nLock #Tag >"..settings.lock_tag.."\nLock #English >"..settings.lock
+  local text = "⚙ SuperGroup settings for:\n#SuperGroup ID :[ "..msg.to.id.." ]\n#SuperGroup name :[ "..msg.to.title.." ]\nn\n🔺Lock #links : "..settings.lock_link.."\n🔻Lock #tag : "..settings.lock_tag.."\n🔺Lock #trash : "..settings.lock_trash.."\n🔻Lock #contacts : "..settings.lock_contacts.."\n🔺Lock #emoji : "..settings.lock_emoji.."\n🔻Lock #flood: "..settings.flood.."\n🔺Lock #spam: "..settings.lock_spam.."\n🔻Lock #Arabic: "..settings.lock_arabic.."\n🔺Lock #Member: "..settings.lock_member.."\n🔻Lock #RTL: "..settings.lock_rtl.."\n🔺Lock #Tgservice : "..settings.lock_tgservice.."\n🔻Lock #sticker: "..settings.lock_sticker.."\n🔺Public: "..settings.public.."\n🔻type : SuperGroup\n🔺Flood #sensitivity : "..NUM_MSG_MAX.."\n🔻Strict #settings: "..settings.strict.."\n🔺Lock #media: no \nn @ElectroTG
   return text
 end
 
@@ -2058,7 +2058,7 @@ local function run(msg, matches)
 		end
 
 		if matches[1] == 'help' and not is_momod(msg) then
-			text = "Message /superhelp to @TeleMoon in private for SuperGroup help"
+			text = "Message /superhelp to @ElectroTG in private for SuperGroup help"
 			reply_msg(msg.id, text, ok_cb, false)
 		elseif matches[1] == 'help' and is_momod(msg) then
 			local name_log = user_print_name(msg.from)
