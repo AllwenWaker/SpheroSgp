@@ -249,7 +249,7 @@ local lock_media = "no"
 		end
 	end
   local settings = data[tostring(target)]['settings']
-  local text = "⚙ Group settings:\n➖➖➖➖➖➖➖➖➖\n🔵Lock #eng : "..lock_eng.."\n🔴Lock #tag : "..lock_tag.."\n🔵Lock #media : "..lock_media.."\n🔴Lock #join : "..lock_join.."\n🔵Lock #badwords : "..lock_badw.."\n🔴Lock #chat : "..lock_chat.."\n🔵Lock #name : "..settings.lock_name.."\n🔴Lock #photo : "..settings.lock_photo.."\n🔵Lock #member : "..settings.lock_member.."\n🔴Lock #leave : "..leave_ban.."\n🔵flood #sensitivity : "..NUM_MSG_MAX.."\n🔴Bot #protection : "..bots_protection.."\n🔵Lock #links : "..settings.lock_link.."\n🔴Lock #RTL: "..settings.lock_rtl.."\n🔵Lock #sticker: "..settings.lock_sticker.."\n➖➖➖➖➖➖➖➖➖\n🔴Public: "..settings.public.."\n@MoonTeam"
+  local text = "⚙ Group settings:\n➖➖➖➖➖➖➖➖➖\n🔻Lock #eng : "..lock_eng.."\n🔺Lock #tag : "..lock_tag.."\n🔻Lock #media : "..lock_media.."\n🔺Lock #join : "..lock_join.."\n🔻Lock #badwords : "..lock_badw.."\n🔺Lock #chat : "..lock_chat.."\n🔻Lock #name : "..settings.lock_name.."\n🔺Lock #photo : "..settings.lock_photo.."\n🔻Lock #member : "..settings.lock_member.."\n🔺Lock #leave : "..leave_ban.."\n🔵flood #sensitivity : "..NUM_MSG_MAX.."\n🔻Bot #protection : "..bots_protection.."\n🔺Lock #links : "..settings.lock_link.."\n🔴Lock #RTL: "..settings.lock_rtl.."\n🔻Lock #sticker: "..settings.lock_sticker.."\n➖➖➖➖➖➖➖➖➖\n🔺Public: "..settings.public.."\n@ElectroTG"
   return text
 end
 
